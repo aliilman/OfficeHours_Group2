@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OfficeHours_Group2.props" />
+</Project>

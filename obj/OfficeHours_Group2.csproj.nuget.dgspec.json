@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj": {}
+    "c:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj": {
+    "c:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj",
+        "projectUniqueName": "c:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj",
         "projectName": "OfficeHours_Group2",
-        "projectPath": "C:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj",
+        "projectPath": "c:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj",
         "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\obj\\",
+        "outputPath": "c:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
