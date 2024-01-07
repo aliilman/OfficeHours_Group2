@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj": {}
+    "C:\\Project\\AkbankBootcamp\\office-hours-group-project\\OfficeHours_Group2\\OfficeHours_Group2.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj": {
+    "C:\\Project\\AkbankBootcamp\\office-hours-group-project\\OfficeHours_Group2\\OfficeHours_Group2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj",
+        "projectUniqueName": "C:\\Project\\AkbankBootcamp\\office-hours-group-project\\OfficeHours_Group2\\OfficeHours_Group2.csproj",
         "projectName": "OfficeHours_Group2",
-        "projectPath": "c:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj",
-        "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\obj\\",
+        "projectPath": "C:\\Project\\AkbankBootcamp\\office-hours-group-project\\OfficeHours_Group2\\OfficeHours_Group2.csproj",
+        "packagesPath": "C:\\Users\\Ahmet\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\AkbankBootcamp\\office-hours-group-project\\OfficeHours_Group2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -41,6 +40,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[110.2.0, )"

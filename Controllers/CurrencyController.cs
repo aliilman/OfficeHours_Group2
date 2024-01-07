@@ -1,11 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using RestSharp;
+using Newtonsoft.Json;
+using OfficeHours_Group2.Dtos;
+using OfficeHours_Group2.Response;
 
 namespace OfficeHours_Group2.Controllers
 {
@@ -23,27 +19,32 @@ namespace OfficeHours_Group2.Controllers
         [HttpGet("live")]
         public async Task GetExchangeRatesByCurrency([FromQuery]string currency)
         {
-
-
+            
         }
+
         [HttpGet("convert")]
         public async Task ConvertCurrency([FromQuery] string from , string to, decimal amount)
         {
 
 
         }
-        [HttpGet("SupportCurrency")]
-        public async Task SupportCurrency()
+
+        [HttpGet("SupportedCurrency")]
+        public async Task<ApiResponse<List<CurrencyData>>> SupportedCurrency()
         {
+            var currencyDataList = GetSupportedCurrencyList();
 
-
+            return new ApiResponse<List<CurrencyData>>(currencyDataList);
         }
 
+        private List<CurrencyData> GetSupportedCurrencyList()
+        {
+            string json = System.IO.File.ReadAllText("supported_currency.json");
 
+            List<CurrencyData> currencyDataList = JsonConvert.DeserializeObject<List<CurrencyData>>(json);
 
-
-
-
+            return currencyDataList;
+        }
 
         [HttpGet("GetCurrency")]
         public async Task GetCurrency()
