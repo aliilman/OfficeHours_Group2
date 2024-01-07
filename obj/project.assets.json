@@ -652,19 +652,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ahmet\\.nuget\\packages\\": {}
+    "C:\\Users\\Ali\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\AkbankBootcamp\\office-hours-group-project\\OfficeHours_Group2\\OfficeHours_Group2.csproj",
+      "projectUniqueName": "C:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj",
       "projectName": "OfficeHours_Group2",
-      "projectPath": "C:\\Project\\AkbankBootcamp\\office-hours-group-project\\OfficeHours_Group2\\OfficeHours_Group2.csproj",
-      "packagesPath": "C:\\Users\\Ahmet\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\AkbankBootcamp\\office-hours-group-project\\OfficeHours_Group2\\obj\\",
+      "projectPath": "C:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\OfficeHours_Group2.csproj",
+      "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ali\\Desktop\\OfficeHours_Group2\\OfficeHours_Group2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -672,7 +672,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net8.0": {

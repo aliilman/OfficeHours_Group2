@@ -68,3 +68,5 @@ C:\Project\AkbankBootcamp\office-hours-group-project\OfficeHours_Group2\obj\Debu
 C:\Project\AkbankBootcamp\office-hours-group-project\OfficeHours_Group2\obj\Debug\net8.0\OfficeHours_Group2.genruntimeconfig.cache
 C:\Project\AkbankBootcamp\office-hours-group-project\OfficeHours_Group2\obj\Debug\net8.0\ref\OfficeHours_Group2.dll
 C:\Project\AkbankBootcamp\office-hours-group-project\OfficeHours_Group2\bin\Debug\net8.0\supported_currency.json
+c:\Users\Ali\Desktop\OfficeHours_Group2\OfficeHours_Group2\bin\Debug\net8.0\supported_currency.json
+c:\Users\Ali\Desktop\OfficeHours_Group2\OfficeHours_Group2\bin\Debug\net8.0\Newtonsoft.Json.dll
