@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OfficeHours_Group2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4008d2032bd6e3d846a50b876f0a4c39cb28466a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b269ff6236e354f44bc750819828b621c468daf5")]
 [assembly: System.Reflection.AssemblyProductAttribute("OfficeHours_Group2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OfficeHours_Group2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
